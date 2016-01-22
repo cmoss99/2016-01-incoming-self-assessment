@@ -44,7 +44,7 @@ Solutions are submitted via [Pull Request](https://help.github.com/articles/usin
 1. From **your fork**, select `Pull Requests` and then create a `New pull request`. 
 2. STOP. *Before* you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once chagned, the pull-request heading should look like this:
 
-  > hackreactor:username ... username:master
+  > telegraphacademy:username ... username:master
 
 3. Copy and **paste the completed Grading Outline into the comment block** of your Pull Request.
 4. Click `Send pull request`
