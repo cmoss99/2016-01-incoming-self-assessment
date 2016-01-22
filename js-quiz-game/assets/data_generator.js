@@ -154,13 +154,14 @@ app.countIncrementor = function(){
 	console.log("I've been counting!")
 };
 
-//displayed when user gets answer correct
+
 app.successDisplay = function(){
 	alert("You are correct!");
 };
 
-//displayed when user gets answer wrong
 app.failureDisplay = function(){
+	 //$('body').empty().append('<div class="wrong"><img src = "photos/redcheckmark.png"></div>');
+	 //$('.wrong').append('<div>Use the link below to get better!</div>');
 	$('#checkAnswer').hide();
 	$('.jsPic').hide();
 	$('form').empty().append('<div class="wrong"><img src = "photos/redcheckmark.png"></div><br><br>').append('<button class="btn-lg" id="restart"> Start Over');
